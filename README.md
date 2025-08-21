@@ -1,65 +1,40 @@
-# vibrating-chatbot
-Public Builds
+# Python Learning Chatbot V2
 
-Python Learning Chatbot
+A modular, context-aware Python chatbot with a modern GUI.
 
-AI-powered chatbot designed to help users learn Python. It provides responses to common programming questions, performs basic mathematical computations, and can even search for information on Wikipedia. The chatbot uses a modern, user-friendly interface with chat bubbles to make the learning experience more engaging.
+## Features
 
-✨ Features
-Topic-Based Responses: Provides quick answers to questions about core Python concepts like variables, loops, and functions.
+- Modular design: core logic separated from GUI
+- Context awareness: remembers last 3 user/bot messages
+- Friendly, helpful responses for Python learning
+- Modern chat UI with chat bubbles (CustomTkinter)
+- Robust input validation and error handling
+- Unit tests for core logic
 
-General Knowledge Fallback: Uses a powerful language model to provide conversational and context-aware responses when a specific command is not recognized.
+## Setup
 
-Dynamic Code Examples: Can generate and display code snippets to illustrate Python concepts.
+1. Install requirements:
+   ```
+   pip install customtkinter
+   ```
 
-External Integrations:
+2. Run the chatbot:
+   ```
+   python chatbot_gui.py
+   ```
 
-Wikipedia Search: Performs searches for broader topics using the requests and BeautifulSoup libraries.
+3. Run tests:
+   ```
+   python test_chatbotV2.py
+   ```
 
-Mathematical Computation: Solves symbolic and numerical math problems using sympy.
+## File Structure
 
-Interactive UI: The graphical user interface (GUI) is built with customtkinter and features a chat-like design with distinct user and bot messages.
+- `chatbot_core.py` — Core chatbot logic
+- `chatbot_gui.py` — GUI using CustomTkinter
+- `test_chatbotV2.py` — Unit tests
+- `README.md` — This file
 
-🚀 Getting Started
-Prerequisites
-Make sure you have Python installed. The chatbot requires the following libraries:
+---
 
-customtkinter
-
-requests
-
-beautifulsoup4
-
-sympy
-
-pygments
-
-transformers
-
-torch
-
-You can install these dependencies using pip:
-
-Bash
-
-pip install customtkinter requests beautifulsoup4 sympy pygments transformers torch
-Installation
-Clone the repository to your local machine:
-
-Bash
-
-git clone https://github.com/lukewarmbro/vibrating-ai-chatbot.git
-Navigate to the project directory:
-
-Bash
-
-cd vibrating-ai-chatbot
-Run the chatbot:
-
-Bash
-
-python chatbotV1.py
-(Note: If the GPT-2 model download fails, you may need to run the script with administrator privileges or install the model manually.)
-
-💡 How to Use
-Simply type your query into the text box and press Enter or click the "Send" button.
+Enjoy learning Python with your new chatbot!
