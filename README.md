@@ -1,10 +1,6 @@
 # vibrating-Scoliosis
 Public Builds
 
-Thank you for providing the link to your GitHub repository. The README.md file I previously provided is a great starting point for updating your page, and it's directly tailored to the code you've developed.
-
-To update your GitHub page, you will need to create a file named README.md in the root of your vibrating-ai-chatbot repository and paste the following content into it. This will automatically populate your repository's main page.
-
 Python Learning Chatbot
 🧠 About
 This is an AI-powered chatbot designed to help users learn Python. It provides responses to common programming questions, performs basic mathematical computations, and can even search for information on Wikipedia. The chatbot uses a modern, user-friendly interface with chat bubbles to make the learning experience more engaging.
