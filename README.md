@@ -1,9 +1,9 @@
-# vibrating-Scoliosis
+# vibrating-chatbot
 Public Builds
 
 Python Learning Chatbot
-🧠 About
-This is an AI-powered chatbot designed to help users learn Python. It provides responses to common programming questions, performs basic mathematical computations, and can even search for information on Wikipedia. The chatbot uses a modern, user-friendly interface with chat bubbles to make the learning experience more engaging.
+
+AI-powered chatbot designed to help users learn Python. It provides responses to common programming questions, performs basic mathematical computations, and can even search for information on Wikipedia. The chatbot uses a modern, user-friendly interface with chat bubbles to make the learning experience more engaging.
 
 ✨ Features
 Topic-Based Responses: Provides quick answers to questions about core Python concepts like variables, loops, and functions.
